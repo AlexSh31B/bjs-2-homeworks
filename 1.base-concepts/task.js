@@ -16,8 +16,15 @@ function solveEquation(a, b, c) {
 }
 
 function calculateTotalMortgage(percent, contribution, amount, date) {
-  let totalAmount;
-
+  let totalAmount = payment*n;
+  let percent;
+  let contribution;
+  let amount;
+  let date;
+  let P = percent/12/100;
+  let n = date - new Date(milliseconds);
+  let S;
+  let payment = S * (P + (P / (((1 + P)**n) - 1)))
   // код для задачи №2 писать здесь
 
   return totalAmount;
